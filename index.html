@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 Assignment — Interactive Web Pages</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Week 6: Interactive Web Pages with JavaScript</h1>
+  </header>
+
+  <main>
+    <!-- Part 1: Event Handling -->
+    <section id="part1">
+      <h2>Part 1: Event Handling</h2>
+      <button id="clickBtn">Click Me!</button>
+      <p id="eventMessage">No events yet.</p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section id="part2">
+      <h2>Part 2: Interactive Elements</h2>
+      <button id="toggleThemeBtn">Toggle Dark/Light Mode</button>
+      <div id="counterContainer">
+        <p>Counter: <span id="counter">0</span></p>
+        <button id="increaseBtn">Increase</button>
+        <button id="decreaseBtn">Decrease</button>
+      </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section id="part3">
+      <h2>Part 3: Form Validation</h2>
+      <form id="myForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <span class="error" id="nameError"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <span class="error" id="emailError"></span>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <span class="error" id="passwordError"></span>
+
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Week 6 Assignment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
